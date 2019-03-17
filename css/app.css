@@ -77,3 +77,22 @@
 .hidden {
     display: none;
 }
+@media screen and (max-width: 701px) {
+    .publication .publication-img{
+        width: 30%;
+    }
+    .publication .comments-section input {
+        width: 60%;
+    }
+    .publication .publication-button {
+        right: 0;
+        line-height: 15px;
+        width: 100px;
+    }
+    .publication .publication-name {
+        top: 35px;
+    }
+    .publication .publication-desc {
+        top: 80px;
+    }
+}
