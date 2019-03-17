@@ -1,0 +1,63 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.container{
+    margin: 0 10%;
+}
+#publication-form{
+    margin-bottom: 10px;
+    border: solid 1px #000;
+    padding: 10px;
+}
+#publication-form .form-group input {
+    width: 100%;
+    height: 20px;
+    line-height: 15px;
+    margin-bottom: 5px;
+    display: block;
+}
+#publication-form .form-group label {
+    text-align: right;
+    margin-right:15px;
+}
+#publication-form .form-group button {
+    float: right;
+    right: 50px;
+    line-height: 30px;
+    width: 150px;
+}
+#publication-list{
+    border: solid 1px #000;
+    padding: 10px;
+}
+.publication{
+    border-bottom: 2px solid #000;
+    display: block;
+    position: relative;
+    margin-bottom: 5px;
+}
+.publication .publication-img{
+    width: 20%;
+    height: auto;
+    margin-right: 5px;
+    border-right: solid 1px #000;
+}
+.publication .publication-name, .publication .publication-desc {
+    line-height: 20px;
+    font-weight: 600;
+    position: absolute;
+}
+.publication .publication-name {
+    top: 20px;
+}
+.publication .publication-desc {
+    top: 40px;
+}
+.publication .publication-button {
+    position: absolute;
+    right: 50px;
+    line-height: 30px;
+    width: 150px;
+}
